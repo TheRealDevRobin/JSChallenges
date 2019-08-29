@@ -1,0 +1,14 @@
+Write an property-based equality checking function, where each property of the object is compared.
+
+FYI:
+Most strongly typed languages such as Java use isEqual() to check whether two objects are the same. You may be tempted to simply use the double equal sign operator to check whether two objects are the same in Javascript.
+However, this will not evaluate to true.
+
+example:
+var o1 = {};
+var o2 = {};
+
+o1 == 02;  //returns false
+o1 === o2; //returns false
+
+.
